@@ -1,4 +1,8 @@
 import React from "react";
-export default function Bedroom() {
-  return <h2>Bedroom</h2>;
+export default function Bedroom(props) {
+  return (
+    <div>
+      <h2>Bedroom {props.bedNum} </h2>
+    </div>
+  );
 }
