@@ -10,8 +10,11 @@ export default function FloorPlan() {
       <h1>FloorPlan</h1>
       <Kitchen />
       <LivingRoom />
-      <Bedroom />
-      <Bath />
+      <Bedroom bedNum="1" />
+      <Bedroom bedNum="2" />
+      <Bedroom bedNum="3" />
+      <Bath size="half" />
+      <Bath size="full" />
     </div>
   );
 }
