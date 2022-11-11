@@ -1,4 +1,8 @@
 import React from "react";
 export default function Oven() {
-  return <h3>Oven</h3>;
+  return (
+    <div className="oven">
+      <h6>Oven</h6>
+    </div>
+  );
 }

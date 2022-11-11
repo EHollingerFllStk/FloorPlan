@@ -9,11 +9,13 @@ export default function App() {
   return (
     <div className="App">
       <Bedroom bedNum="1" />
-      <Bath size="half" />
-      <Kitchen />
       <LivingRoom />
-      <Bedroom bedNum="2" />
+      <Kitchen />
       <Bath size="full" />
+
+      <Bedroom bedNum="2" />
+      <Bath size="half" />
+
       <Bedroom bedNum="3" />
     </div>
   );

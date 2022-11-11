@@ -1,8 +1,8 @@
 import React from "react";
 export default function LivingRoom() {
   return (
-    <div>
-      <h2>Living Room</h2>
+    <div className="living-room">
+      <h5>Living Room</h5>
     </div>
   );
 }
