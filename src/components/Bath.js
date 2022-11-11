@@ -3,8 +3,8 @@ import Sink from "./Sink";
 
 export default function Bath(props) {
   return (
-    <div>
-      <h2>Bath {props.size} </h2>
+    <div className="bath" id={`size-${props.size}`}>
+      <h5>Bath {props.size} </h5>
       <Sink />
     </div>
   );

@@ -4,8 +4,8 @@ import Sink from "./Sink";
 
 export default function Kitchen() {
   return (
-    <div>
-      <h2>Kitchen</h2>
+    <div className="kitchen">
+      <h5>Kitchen</h5>
       <Oven />
       <Sink />
     </div>
