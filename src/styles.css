@@ -68,12 +68,18 @@
 
 .oven {
   background-color: pink;
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  grid-template-rows: 10% 90%;
+  /* grid-column: 3/4;
+  grid-row: 1/1; */
 }
 
 .sink {
   background-color: brown;
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  grid-template-rows: 10% 90%;
+  grid-column: 3/4;
+  grid-row: 1/1;
 }
